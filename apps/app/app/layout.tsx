@@ -1,11 +1,10 @@
 import type { Metadata } from 'next';
-import { SessionProvider } from '@repo/auth/client';
 import { ThemeProvider } from 'next-themes';
 import './styles.css';
 
 export const metadata: Metadata = {
-  title: 'Dashboard',
-  description: 'Your SaaS app',
+  title: 'Your SaaS',
+  description: 'Welcome to your SaaS application',
 };
 
 export default function RootLayout({
@@ -17,7 +16,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <SessionProvider>{children}</SessionProvider>
+          {children}
         </ThemeProvider>
       </body>
     </html>

@@ -1,7 +1,7 @@
 {
   "name": "cv-optimizer",
   "version": "0.1.0",
-  "description": "cv-optimizer SaaS",
+  "description": "CV Optimizer - Job search companion",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@11.20.0",
@@ -10,7 +10,7 @@
     "pnpm": ">=9.0.0"
   },
   "scripts": {
-    "dev": "export $(grep -v '^#' .env.local | xargs) && turbo dev",
+    "dev": "turbo dev",
     "build": "turbo build",
     "test": "turbo test",
     "check": "turbo check",

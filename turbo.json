@@ -1,12 +1,11 @@
 {
   "$schema": "https://turborepo.com/schema.json",
   "globalDependencies": [".env.local"],
-  "globalEnv": ["PORT", "PORT_WEB", "PORT_API"],
+  "globalEnv": ["PORT"],
   "tasks": {
     "dev": {
       "cache": false,
-      "env": ["PORT", "PORT_WEB", "PORT_API"],
-      "outputs": [".next/**", "dist/**"]
+      "persistent": true
     },
     "build": {
       "outputs": [".next/**", "dist/**", "build/**"],
