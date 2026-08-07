@@ -2,6 +2,10 @@
   "name": "@repo/design-system",
   "version": "0.4.5",
   "private": true,
+  "exports": {
+    "./components/*": "./src/components/*",
+    "./lib/*": "./lib/*"
+  },
   "scripts": {
     "clean": "git clean -xdf .cache .turbo dist node_modules",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false",

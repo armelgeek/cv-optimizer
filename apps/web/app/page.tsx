@@ -10,12 +10,12 @@ export default function Page() {
           Build something amazing
         </p>
         <div className="space-x-4">
-          <Button asChild>
-            <Link href="/sign-in">Sign In</Link>
-          </Button>
-          <Button variant="outline" asChild>
-            <Link href="/sign-up">Sign Up</Link>
-          </Button>
+          <Link href="/sign-in">
+            <Button>Sign In</Button>
+          </Link>
+          <Link href="/sign-up">
+            <Button variant="outline">Sign Up</Button>
+          </Link>
         </div>
       </div>
     </main>
