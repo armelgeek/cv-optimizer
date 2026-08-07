@@ -1,7 +1,0 @@
-packages:
-  - 'apps/app'
-  - 'packages/*'
-allowBuilds:
-  esbuild: true
-  sharp: true
-overrides: {}
