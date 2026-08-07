@@ -11,6 +11,9 @@
       "outputs": [".next/**", "dist/**", "build/**"],
       "cache": true
     },
+    "//#build": {
+      "dependsOn": ["^build"]
+    },
     "test": {
       "cache": true
     },
