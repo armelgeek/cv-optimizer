@@ -1,0 +1,26 @@
+{
+  "name": "cv-optimizer",
+  "version": "0.1.0",
+  "description": "cv-optimizer SaaS",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.20.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "export $(grep -v '^#' .env.local | xargs) && turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "check": "turbo check",
+    "clean": "turbo clean && rm -rf node_modules",
+    "db:generate": "pnpm --filter @repo/database db:generate",
+    "db:push": "pnpm --filter @repo/database db:push",
+    "db:studio": "pnpm --filter @repo/database db:studio"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "turbo": "latest"
+  }
+}

@@ -1,0 +1,7 @@
+packages:
+  - 'apps/*'
+  # packages/* are symlinks to drift/packages - only scanned by pnpm, not turbo
+allowBuilds:
+  esbuild: true
+  sharp: set this to true or false
+overrides: {}

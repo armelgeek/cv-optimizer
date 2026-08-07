@@ -1,0 +1,25 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "workspaceLayout": {
+    "globs": ["apps/*", "packages/*"]
+  },
+  "globalDependencies": [".env.local"],
+  "globalEnv": ["PORT", "PORT_WEB", "PORT_API"],
+  "tasks": {
+    "dev": {
+      "cache": false,
+      "env": ["PORT", "PORT_WEB", "PORT_API"],
+      "outputs": [".next/**", "dist/**"]
+    },
+    "build": {
+      "outputs": [".next/**", "dist/**", "build/**"],
+      "cache": true
+    },
+    "test": {
+      "cache": true
+    },
+    "check": {
+      "cache": true
+    }
+  }
+}
