@@ -13,7 +13,7 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "dev": "turbo dev",
+    "dev": "export $(grep -v '^#' .env.local | xargs) && turbo dev",
     "build": "turbo build --filter=@repo/app",
     "test": "turbo test",
     "check": "turbo check",
