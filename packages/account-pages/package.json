@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
-    "@repo/auth": "workspace:*",
-    "@repo/database": "workspace:*",
-    "@repo/design-system": "workspace:*",
-    "@repo/payments": "workspace:*",
+    "@repo/auth": "*",
+    "@repo/database": "*",
+    "@repo/design-system": "*",
+    "@repo/payments": "*",
     "drizzle-orm": "^0.45.2",
     "react": "19.2.1",
     "react-hook-form": "^7.52.0",
@@ -21,8 +21,8 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@repo/testing": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@repo/testing": "*",
+    "@repo/typescript-config": "*",
     "@types/node": "24.10.1",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",

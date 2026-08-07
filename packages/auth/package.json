@@ -20,8 +20,8 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@repo/testing": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@repo/testing": "*",
+    "@repo/typescript-config": "*",
     "@testing-library/react": "^16.3.0",
     "@types/node": "24.10.1",
     "@types/react": "19.2.7",

@@ -26,8 +26,8 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@repo/testing": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@repo/testing": "*",
+    "@repo/typescript-config": "*",
     "@types/node": "24.10.1",
     "@types/ws": "^8.18.1",
     "drizzle-kit": "^0.31.10",

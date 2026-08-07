@@ -15,8 +15,8 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@repo/testing": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@repo/testing": "*",
+    "@repo/typescript-config": "*",
     "typescript": "^5.9.3",
     "vitest": "^4.0.15"
   }
