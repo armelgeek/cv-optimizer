@@ -4,7 +4,9 @@
   "private": true,
   "exports": {
     "./components/*": "./src/components/*",
-    "./lib/*": "./lib/*"
+    "./lib/*": "./lib/*",
+    "./styles.css": "./styles.css",
+    "./styles/*": "./styles/*"
   },
   "scripts": {
     "clean": "git clean -xdf .cache .turbo dist node_modules",
