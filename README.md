@@ -1,4 +1,4 @@
-# CV Optimizer 2.0 🚀
+# CV Optimizer 🚀
 
 **Le compagnon de recherche d'emploi qui ne te piège pas dans un abonnement.**
 
