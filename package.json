@@ -10,7 +10,7 @@
   },
   "scripts": {
     "dev": "turbo dev",
-    "build": "turbo build",
+    "build": "turbo build --filter=@repo/app",
     "test": "turbo test",
     "check": "turbo check",
     "clean": "turbo clean && rm -rf node_modules",
