@@ -1,0 +1,12 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "nodenext",
+    "paths": {
+      "@repo/*": ["../../packages/*/src", "../../packages/*/index.ts"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["dist", "node_modules"]
+}
