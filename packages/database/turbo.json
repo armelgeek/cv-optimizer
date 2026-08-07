@@ -1,0 +1,12 @@
+{
+  "extends": ["//"],
+  "tags": ["infra"],
+  "tasks": {
+    "test": {
+      "cache": false
+    },
+    "db:push": {
+      "cache": false
+    }
+  }
+}
