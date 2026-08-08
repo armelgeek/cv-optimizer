@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs ls -la)",
+      "Bash(cp -r ~/dev/Hayzar/boilerplate/drift/.claude/agents .claude/agents)",
+      "Bash(cp -r ~/dev/Hayzar/boilerplate/drift/.claude/commands .claude/commands)",
+      "Bash(cp -r ~/dev/Hayzar/boilerplate/drift/.claude/hooks .claude/hooks)",
+      "Bash(cp ~/dev/Hayzar/boilerplate/drift/.claude/CLAUDE.md .claude/CLAUDE.md)",
+      "Bash(cp ~/dev/Hayzar/boilerplate/drift/.claude/settings.json .claude/settings.json)",
+      "Bash(grep -E \"\\\\.\\(json|md|env|txt\\)$\")",
+      "Bash(cat)",
+      "Bash(chmod +x /tmp/convert-commands.sh)",
+      "Bash(/tmp/convert-commands.sh)",
+      "Bash(rm .claude/skills)",
+      "Bash(mkdir -p .claude/skills)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
